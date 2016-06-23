@@ -36,9 +36,9 @@ char notchPositionRotorCenter[] = "F";
  * Para decodificar, basta seguir a mesma lógica.
  */
 
-char caracterInicialRotorLeft[]   = "M";
+char caracterInicialRotorLeft[]   = "F";
 char caracterInicialRotorCenter[] = "E";
-char caracterInicialRotorRight[]  = "V";
+char caracterInicialRotorRight[]  = "R";
 
 void setup() { 
   Serial.begin(9600);
