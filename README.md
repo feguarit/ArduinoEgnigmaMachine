@@ -1,4 +1,4 @@
-# Arduino Egnigma Machine
+# Arduino Enigma Machine
 
 <p align="center"><img src="https://s32.postimg.org/q8vxwypth/01_Enigma_Aparencia.jpg"></p>
 
