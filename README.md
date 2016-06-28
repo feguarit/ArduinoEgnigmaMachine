@@ -1,5 +1,7 @@
 # Arduino Egnigma Machine
 
+<p align="center"><img src="https://s32.postimg.org/q8vxwypth/01_Enigma_Aparencia.jpg"></p>
+
 ### [Projeto Livre]
 
 Algumas regras básicas devem ser seguidas para que o dado à ser criptografado ou descriptografado seja feita com sucesso:
@@ -31,3 +33,10 @@ Isso significa que o programa vai criptografar a palavra "ARDUINO" e a saída (c
 
     FER
     LUUBQDP
+
+
+`TesteLeds.ino`
+
+Trata-se de um arquivo onde é usado para testar o teclado e os LED´s. O que ele faz é acender o LED respectivo à tecla pressionada e com isso é possível fazer um teste se todos os botões e seus respectivos LED´s estão funcionando.
+
+O teclado que foi confeccionado para esse projeto utiliza 3 entradas analógicas e a diferenciação entre os botões que estão vinculados à uma mesma entrada foi feita por resistores em série, sempre usando a segunda tecla um resistor com valor em dobro do anterior. Para esse projeto, iniciei com um resistor de 47hms, o segundo um valor próximo à 100, o próximo 200 e assim sucessivamente, sempre levando em conta resistores que existem no mercado e que são fáceis de encontrar.
